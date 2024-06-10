@@ -21,6 +21,7 @@ header {
     display: flex; /* Use flexbox */
     justify-content: space-between; /* Distribua uniformemente com espaços entre eles */
     max-width: 100px; /* Define a largura máxima para os ícones */
+    max-height: 30px; /* Define a altura máxima para os ícones */;
     margin-top: 10px; /* Espaço entre os ícones e os detalhes de contato */
 }
 
