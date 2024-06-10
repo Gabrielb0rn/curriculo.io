@@ -20,7 +20,7 @@ header {
 .social-links {
     display: flex; /* Use flexbox */
     justify-content: center; /* Centraliza os itens horizontalmente */
-    align-items: center; /* Centraliza os itens verticalmente */
+    align-items: left; /* Centraliza os itens verticalmente */
     margin-top: 10px; /* Espaço entre os ícones e os detalhes de contato */
     padding: 0 10px; /* Adiciona espaçamento interno entre os ícones */
 }
