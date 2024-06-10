@@ -16,6 +16,18 @@ header {
     text-align: center; /* Centraliza o conteúdo do cabeçalho */
 }
 
+/* Estilos do ícone do LinkedIn */
+.linkedin-icon {
+    width: 30px; /* Ajuste o tamanho do ícone conforme necessário */
+    height: 30px;
+}
+
+/* Estilos do ícone do GitHub */
+.github-icon {
+    width: 30px; /* Ajuste o tamanho do ícone conforme necessário */
+    height: 30px;
+}
+
 /* Estilos para colocar os ícones lado a lado */
 .social-links {
     display: flex; /* Use flexbox */
