@@ -16,29 +16,16 @@ header {
     text-align: center; /* Centraliza o conteúdo do cabeçalho */
 }
 
-/* Estilos do ícone do LinkedIn */
 .linkedin-icon {
     width: 30px; /* Ajuste o tamanho do ícone conforme necessário */
     height: 30px;
+    margin-top: 10px; /* Espaço entre o telefone e o ícone do LinkedIn */
 }
 
-/* Estilos do ícone do GitHub */
 .github-icon {
     width: 30px; /* Ajuste o tamanho do ícone conforme necessário */
     height: 30px;
-}
-
-/* Estilos para colocar os ícones lado a lado */
-.social-links {
-    display: flex; /* Use flexbox */
-    justify-content: space-between; /* Distribua uniformemente com espaços entre eles */
-    max-width: 100px; /* Define a largura máxima para os ícones */
-    margin-top: 10px; /* Espaço entre os ícones e os detalhes de contato */
-}
-
-/* Adiciona espaçamento interno nos elementos p que envolvem os ícones */
-.social-links p {
-    margin: 0 5px; /* Espaçamento horizontal entre os ícones */
+    margin-top: 10px; /* Espaço entre o telefone e o ícone do GitHub */
 }
 
 

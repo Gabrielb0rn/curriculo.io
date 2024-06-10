@@ -31,16 +31,10 @@ header {
 /* Estilos para colocar os ícones lado a lado */
 .social-links {
     display: flex; /* Use flexbox */
-    justify-content: space-between; /* Distribua uniformemente com espaços entre eles */
-    max-width: 100px; /* Define a largura máxima para os ícones */
+    justify-content: space-between; /* Distribua os itens uniformemente */
+    max-width: 150px; /* Define a largura máxima para os ícones */
     margin-top: 10px; /* Espaço entre os ícones e os detalhes de contato */
 }
-
-/* Adiciona espaçamento interno nos elementos p que envolvem os ícones */
-.social-links p {
-    margin: 0 5px; /* Espaçamento horizontal entre os ícones */
-}
-
 
 .profile-picture {
     margin-bottom: 3%; /* Adiciona espaço abaixo da foto de perfil */
