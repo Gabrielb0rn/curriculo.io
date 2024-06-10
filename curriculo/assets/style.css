@@ -1,0 +1,71 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão para o corpo do documento */
+    background-color: #c6d7e8a7; /* Define a cor de fundo do corpo do documento */
+    color: #333; /* Define a cor do texto principal */
+}
+
+.container {
+    max-width: 80%; /* Define a largura máxima do conteúdo para manter o layout responsivo */
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente na página */
+    padding: 2%; /* Adiciona preenchimento ao redor do conteúdo */
+}
+
+/* Estilos do cabeçalho */
+header {
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+}
+
+.profile-picture {
+    margin-bottom: 3%; /* Adiciona espaço abaixo da foto de perfil */
+}
+
+.profile-picture img {
+    border-radius: 20px; /* Adiciona bordas arredondadas à imagem */
+    width: 20%; /* Define a largura da imagem em relação à largura do container */
+    height: 20%; /* Permite que a altura da imagem seja ajustada automaticamente para manter a proporção */
+    border: 3px solid #343a40; /* Adiciona uma borda sólida à imagem */
+}
+
+header h1 {
+    margin-bottom: 2%;/* Adiciona espaço abaixo do título do cabeçalho */
+}
+
+/* Estilos das seções */
+section {
+    margin-bottom: 3%; /* Adiciona espaço abaixo de cada seção */
+}
+
+h2 {
+    color: #343a40; /* Define a cor do título das seções */
+    margin-bottom: 2%; /* Adiciona espaço abaixo de cada título de seção */
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores de lista padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+}
+
+.botao {
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: #767fa7; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda visível */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Efeito de transição para suavizar a mudança de cor */
+  }
+  
+  /* Estilo do botão quando o mouse passa por cima */
+  .botao:hover {
+    background-color: #495382; /* Nova cor de fundo ao passar o mouse */
+  }
+  
+
+/* Estilos do rodapé */
+footer {
+    text-align: center;
+    margin-top: 2%;
+    padding-top: 2%;
+    border-top: 1px solid #a2a1a1;/* Adiciona uma borda somente na parte de cima */
+}
