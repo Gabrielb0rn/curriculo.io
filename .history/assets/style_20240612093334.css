@@ -1,0 +1,129 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif; /* Define a fonte principal da página */
+    background-color: #f0f4f8; /* Define a cor de fundo da página */
+    color: #333; /* Define a cor do texto principal */
+    margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o preenchimento padrão do body */
+}
+
+.container {
+    max-width: 80%; /* Define a largura máxima do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+    padding: 2%; /* Adiciona um preenchimento ao redor do contêiner */
+}
+
+/* Estilos do cabeçalho */
+header {
+    text-align: center; /* Centraliza o texto do cabeçalho */
+    background-color: #343a40; /* Define a cor de fundo do cabeçalho */
+    color: #fff; /* Define a cor do texto no cabeçalho */
+    padding: 20px; /* Adiciona preenchimento ao redor do cabeçalho */
+    border-radius: 10px; /* Adiciona cantos arredondados ao cabeçalho */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao cabeçalho */
+}
+
+.profile-picture img {
+    border-radius: 50%; /* Deixa a imagem do perfil em forma de círculo */
+    width: 150px; /* Define a largura da imagem do perfil */
+    height: 150px; /* Define a altura da imagem do perfil */
+    object-fit: cover; /* Garante que a imagem cubra totalmente a área definida */
+    margin-bottom: 10px; /* Adiciona um espaço abaixo da imagem */
+}
+
+header h1 {
+    margin: 0; /* Remove a margem do título */
+    font-size: 24px; /* Define o tamanho da fonte do título */
+}
+
+/* Estilos das seções */
+main {
+    background-color: #fff; /* Define a cor de fundo do conteúdo principal */
+    padding: 20px; /* Adiciona preenchimento ao redor do conteúdo principal */
+    border-radius: 10px; /* Adiciona cantos arredondados ao conteúdo principal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao conteúdo principal */
+}
+
+section {
+    margin-bottom: 20px; /* Adiciona um espaço abaixo de cada seção */
+}
+
+h2 {
+    color: #343a40; /* Define a cor dos títulos das seções */
+    margin-bottom: 10px; /* Adiciona um espaço abaixo dos títulos das seções */
+    font-size: 20px; /* Define o tamanho da fonte dos títulos das seções */
+}
+
+h3 {
+    color: #495382; /* Define a cor dos subtítulos */
+    font-size: 18px; /* Define o tamanho da fonte dos subtítulos */
+}
+
+p {
+    margin: 0 0 10px; /* Remove a margem superior e define a margem inferior */
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores padrão das listas */
+    padding: 0; /* Remove o preenchimento das listas */
+    margin: 0; /* Remove a margem das listas */
+}
+
+ul li {
+    background-color: #e9ecef; /* Define a cor de fundo dos itens da lista */
+    padding: 10px; /* Adiciona preenchimento aos itens da lista */
+    border-radius: 5px; /* Adiciona cantos arredondados aos itens da lista */
+    margin-bottom: 5px; /* Adiciona um espaço abaixo de cada item da lista */
+}
+
+/* Estilos dos contatos e redes sociais */
+.icon {
+    vertical-align: middle; /* Alinha os ícones verticalmente ao meio */
+    margin-right: 8px; /* Adiciona um espaço à direita dos ícones */
+}
+
+.social-links {
+    display: flex; /* Usa flexbox para os links sociais */
+    gap: 10px; /* Define o espaço entre os links sociais */
+}
+
+.social-links a {
+    display: inline-block; /* Define os links sociais como blocos inline */
+    border-radius: 50%; /* Adiciona cantos arredondados aos links sociais */
+    padding: 5px; /* Adiciona preenchimento aos links sociais */
+    background-color: #f0f4f8; /* Define a cor de fundo dos links sociais */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave na cor de fundo */
+}
+
+.social-links a:hover {
+    background-color: #ddd; /* Altera a cor de fundo ao passar o mouse sobre os links sociais */
+}
+
+/* Estilos do botão */
+.botao {
+    display: block; /* Define o botão como um bloco */
+    text-align: center; /* Centraliza o texto do botão */
+    padding: 10px 0; /* Adiciona preenchimento vertical ao botão */
+    background-color: #007bff; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Adiciona cantos arredondados ao botão */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+    font-size: 16px; /* Define o tamanho da fonte do botão */
+    text-decoration: none; /* Remove a decoração do texto do botão */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave na cor de fundo */
+}
+
+.botao:hover {
+    background-color: #0056b3; /* Altera a cor de fundo ao passar o mouse sobre o botão */
+}
+
+/* Estilos do rodapé */
+footer {
+    text-align: center; /* Centraliza o texto do rodapé */
+    margin-top: 20px; /* Adiciona um espaço acima do rodapé */
+    padding-top: 20px; /* Adiciona preenchimento acima do rodapé */
+    border-top: 1px solid #ddd; /* Adiciona uma borda superior ao rodapé */
+    font-size: 14px; /* Define o tamanho da fonte do rodapé */
+    color: #666; /* Define a cor do texto do rodapé */
+}
