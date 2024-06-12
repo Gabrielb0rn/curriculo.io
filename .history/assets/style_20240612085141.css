@@ -1,0 +1,107 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão para o corpo do documento */
+    background-color: #c6d7e8a7; /* Define a cor de fundo do corpo do documento */
+    color: #333; /* Define a cor do texto principal */
+}
+
+.container {
+    max-width: 80%; /* Define a largura máxima do conteúdo para manter o layout responsivo */
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente na página */
+    padding: 2%; /* Adiciona preenchimento ao redor do conteúdo */
+}
+
+/* Estilos do cabeçalho */
+header {
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+    border-radius: 10px;
+    background-color: rgb(249, 252, 255);
+}
+
+/* Estilos para centralizar o texto verticalmente com os ícones */
+.icon {
+    vertical-align: middle;
+}
+
+/* Estilos para colocar os ícones lado a lado */
+.social-links {
+    display: flex; /* Use flexbox */
+    justify-content: flex-start; /* Alinha os itens no canto esquerdo */
+    align-items: center; /* Centraliza os itens verticalmente */
+    margin-top: 10px; /* Espaço entre os ícones e os detalhes de contato */
+    padding-left: 10px; /* Adiciona espaçamento interno à esquerda dos ícones */
+}
+
+/* Estilos dos ícones do LinkedIn e GitHub */
+.linkedin-icon,
+.github-icon {
+    width: 30px !important; /* Ajuste o tamanho dos ícones conforme necessário */
+    height: auto !important; /* Mantém a proporção da imagem */
+}
+
+.social-links p {
+    margin: 0 5px; /* Espaçamento horizontal entre os ícones */
+    vertical-align: middle;
+}
+
+.profile-picture {
+    margin-bottom: 3%; /* Adiciona espaço abaixo da foto de perfil */
+    border-radius: 10px;
+}
+
+.profile-picture img {
+    border-radius: 20px; /* Adiciona bordas arredondadas à imagem */
+    width: 50%; /* Define a largura da imagem em relação à largura do container */
+    max-width: 500px; /* Limite máximo da largura */
+    height: auto; /* Mantém a proporção da imagem */
+    border: 3px solid #343a40; /* Adiciona uma borda sólida à imagem */
+}
+
+header h1 {
+    margin-bottom: 2%;/* Adiciona espaço abaixo do título do cabeçalho */
+}
+
+/* Estilos das seções */
+section {
+    margin-bottom: 3%; /* Adiciona espaço abaixo de cada seção */
+}
+
+h2 {
+    color: #343a40; /* Define a cor do título das seções */
+    margin-bottom: 2%; /* Adiciona espaço abaixo de cada título de seção */
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores de lista padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+}
+
+.botao {
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: #767fa7; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda visível */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Efeito de transição para suavizar a mudança de cor */
+}
+  
+/* Estilo do botão quando o mouse passa por cima */
+.botao:hover {
+    background-color: #495382; /* Nova cor de fundo ao passar o mouse */
+}
+
+/* Estilos do rodapé */
+footer {
+    text-align: center;
+    margin-top: 2%;
+    padding-top: 2%;
+    border-top: 1px solid #a2a1a1;/* Adiciona uma borda somente na parte de cima */
+}
+
+main{
+    background-color: rgb(249, 252, 255);
+    padding: 3%;
+    border-radius: 10px;
+
+}
